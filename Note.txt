@@ -4,6 +4,7 @@ configparser Module:
 
 configparser is used to read configuration files.
 A new function, load_aws_credentials, reads the AWS credentials from a configuration file (aws_config.ini).
+
 Configuration File (aws_config.ini):
 
 Create a file named aws_config.ini with the following content:
@@ -11,8 +12,8 @@ Create a file named aws_config.ini with the following content:
 [aws_credentials]
 aws_access_key_id = your_access_key_id
 aws_secret_access_key = your_secret_access_key
-
 Replace your_access_key_id and your_secret_access_key with your actual AWS credentials.
+
 Updated create_ec2_instance Function:
 
 The function now calls load_aws_credentials to retrieve the AWS credentials.
