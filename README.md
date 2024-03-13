@@ -22,7 +22,8 @@ Before using the script, ensure you have the following:
 Clone the Repository:
 
 git clone https://github.com/yourusername/Python_Script_for_Provision_ec2-Instance_with_Secured_Key-Pair.git
-  cd Python_Script_for_Provision_ec2-Instance_with_Secured_Key-Pair
+  
+cd Python_Script_for_Provision_ec2-Instance_with_Secured_Key-Pair
 
 ## Configure AWS Credentials:
 
